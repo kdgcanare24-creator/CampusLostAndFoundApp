@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Campus Lost &amp; Found</string>
+    <string name="view_lost">View Lost Items</string>
+    <string name="report_lost">Report Lost Item</string>
+    <string name="found_something">Found Something</string>
+</resources>
