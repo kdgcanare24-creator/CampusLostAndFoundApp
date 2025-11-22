@@ -1,6 +1,11 @@
 # Campus Lost & Found App
 
-**GlitchGuild Team:** Gian Eric, Kaella, John Carlo, John Carlos, Miko  
+**GlitchGuild Team:** 
+Gian Eric R. Baluyot
+Kaella D. Canare
+John Carlo F. Cayobit
+John Carlos Capuli
+Miko M. Buensuceso
 
 ---
 
@@ -12,11 +17,9 @@ With this app, students, teachers, and staff can quickly report lost or found it
 
 ---
 
-## **Features**
-- **User Login & Registration** – Secure access for all campus members.  
-- **Report Lost or Found Items** – Fill out a simple form with item details and upload a photo.  
-- **Search & Filter Reports** – Quickly find reported items.  
-- **Update Item Status** – Mark items as returned when recovered.  
+## **Features**  
+- **View Lost Items** - Here where you can view the reported items.
+- **Report Lost or Found Items** – Fill out a simple form with item details and upload a photo.     
 - **Contact Information** – Each report includes contact info of the finder for safe handover.  
 
 ---
@@ -55,10 +58,9 @@ The app provides a **campus-exclusive platform** that organizes lost and found r
 ---
 
 ## **How It Works**
-1. Users register or log in.  
+1. View Lost Items.
 2. Report lost or found items with a photo and description.  
-3. Browse or search for items reported by others.  
-4. Contact the finder/owner to arrange a safe meet-up for returning items.  
+3. Contact the finder/owner to arrange a safe meet-up for returning items.  
 
 ---
 
@@ -82,7 +84,5 @@ This project is for educational purposes only and is **not for commercial use**.
 
 ---
 
-## **Contact**
-For any questions, suggestions, or collaboration:  
-- Email: your-email@example.com (replace with your contact)  
 - GitHub: [kdgcanare24-creator](https://github.com/kdgcanare24-creator)
+  
