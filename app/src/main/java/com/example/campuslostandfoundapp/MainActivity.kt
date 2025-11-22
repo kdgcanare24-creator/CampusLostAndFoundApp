@@ -13,17 +13,14 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // View Lost Items
         binding.btnViewLost.setOnClickListener {
             startActivity(Intent(this, LostItemsActivity::class.java))
         }
 
-        // Report Lost Item
         binding.btnReportLost.setOnClickListener {
             startActivity(Intent(this, ReportLostActivity::class.java))
         }
 
-        // Found Something
         binding.btnFoundSomething.setOnClickListener {
             startActivity(Intent(this, FoundSomethingActivity::class.java))
         }

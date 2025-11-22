@@ -1,4 +1,7 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -7,27 +10,27 @@
     android:padding="24dp">
 
     <TextView
-        android:id="@+id/tvReportTitle"
+        android:id="@+id/tvFoundTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
         android:text="Report Lost Item"
-        android:textSize="24sp"
         android:textColor="#000000"
-        android:textStyle="bold"
-        android:layout_marginBottom="32dp"/>
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/etItemName"
+        android:id="@+id/etFoundItemName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Item Name"
         android:padding="12dp"
         android:backgroundTint="#000000"
         android:textColor="#000000"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp" />
 
     <EditText
-        android:id="@+id/etDescription"
+        android:id="@+id/etFoundDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Description"
@@ -36,10 +39,20 @@
         android:gravity="top"
         android:backgroundTint="#000000"
         android:textColor="#000000"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp" />
+
+    <!-- Image Preview -->
+    <ImageView
+        android:id="@+id/ivPhotoPreview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:background="#DDDDDD"
+        android:scaleType="centerCrop"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
 
     <Button
-        android:id="@+id/btnUploadPhoto"
+        android:id="@+id/btnUploadPhotoFound"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="UPLOAD PHOTO"
@@ -47,13 +60,14 @@
         android:backgroundTint="#FFFFFF"
         android:layout_marginBottom="16dp"
         android:strokeWidth="2"
-        android:strokeColor="#000000"/>
+        android:strokeColor="#000000" />
 
     <Button
-        android:id="@+id/btnSubmitReport"
+        android:id="@+id/btnSubmitFound"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SUBMIT REPORT"
+        android:text="SUBMIT FOUND ITEM"
         android:textColor="#FFFFFF"
-        android:backgroundTint="#000000"/>
+        android:backgroundTint="#000000" />
+
 </LinearLayout>
